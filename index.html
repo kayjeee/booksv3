@@ -3,16 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Simple CSS Example</title>
+  <title>My Simple CSS Aweasome books Example</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1 id="my-heading">Welcome to My Website</h1>
-    <p>This is a paragraph.</p>
-    <p class="my-element">This is another paragraph with a class.</p>
-    <button class="btn">Click me</button>
-    <div class="box"></div>
+
+  <div id="time" class="time"></div>
+  <div class="myDiv">
+    <div class="container">
+      <div class="section home" style="display: none;">
+        <h1 class="section-title">All awesome books</h1>
+        <div class="tableContainer">
+          <table id="bookList">
+            <tbody class="body-content">
+            </tbody>
+          </table>
+        </div>
+      </div>
+  
+      <div class="section books" style="display: flex;">
+        <h2 class="section-title">Add a new book</h2>
+        <form action="" id="addNewForm">
+          <input type="text" id="bookTitle" class="input-field" placeholder="Title"><br>
+          <input type="text" id="authorName" class="input-field" placeholder="Author"><br>
+          <div class="button-container">
+            <button id="addBook">Add</button>
+          </div>
+        </form>
+      </div
+  
+      <div class="section contacts" style="display: none;">
+        <h2 class="section-title">Contact Information</h2>
+        <p>Do you have any question or you just want to say "Hello"?<br>
+          You can reach out to us!</p>
+        <ul>
+          <li>Our email: kagiso@mail.com</li>
+          <li>Our phone number: +243845456</li>
+          <li>Our address: StreetName 22,  City, Country</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 </html>
